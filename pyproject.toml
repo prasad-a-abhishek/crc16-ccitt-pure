@@ -6,8 +6,37 @@ build-backend = "setuptools.build_meta"
 name = "crc16-ccitt"
 version = "0.1.0"
 description = "Pure-Python CRC-16/CCITT-FALSE reference implementation, zero runtime deps."
+readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Prasad A Abhishek", email = "prasad.a.abhishek@example.com" },
+]
+keywords = ["crc", "crc16", "ccitt-false", "x25", "hdlc", "itu-t"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7", "crcmod"]
+
+[project.scripts]
+crc16-ccitt-pure-compute = "crc16_ccitt.cli:main_compute"
+crc16-ccitt-pure-self-test = "crc16_ccitt.cli:main_self_test"
+
+[project.urls]
+Homepage = "https://github.com/prasad-a-abhishek/crc16-ccitt-pure"
+Repository = "https://github.com/prasad-a-abhishek/crc16-ccitt-pure"
 
 [tool.setuptools.packages.find]
 where = ["src"]
