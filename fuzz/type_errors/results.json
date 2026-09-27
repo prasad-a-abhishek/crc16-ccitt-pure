@@ -1,0 +1,13 @@
+{
+  "surface": "type_errors",
+  "iters": 500,
+  "crashes": 0,
+  "oracle_mismatches": 0,
+  "elapsed_seconds": 0.0037,
+  "extras": {
+    "static_bad_data_cases": 17,
+    "good_bytes_like_cases": 7,
+    "bad_init_cases": 8,
+    "bad_xorout_cases": 8
+  }
+}

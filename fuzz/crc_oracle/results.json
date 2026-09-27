@@ -1,0 +1,11 @@
+{
+  "surface": "crc_oracle",
+  "iters": 500,
+  "crashes": 0,
+  "oracle_mismatches": 0,
+  "elapsed_seconds": 0.1489,
+  "extras": {
+    "canonical_vectors": 9,
+    "oracle_class": "crcmod.mkCrcFun(0x11021, initCrc=0xFFFF, rev=False, xorOut=0x0000)"
+  }
+}

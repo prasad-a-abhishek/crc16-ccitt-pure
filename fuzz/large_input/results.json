@@ -1,0 +1,139 @@
+{
+  "surface": "large_input",
+  "iters": 2,
+  "crashes": 0,
+  "oracle_mismatches": 0,
+  "elapsed_seconds": 17.6784,
+  "extras": {
+    "sizes": [
+      1,
+      1000,
+      100000,
+      1000000,
+      10000000
+    ],
+    "patterns_per_size": 4,
+    "timings": [
+      {
+        "size_bytes": 1,
+        "pattern": "all_00",
+        "value": "0xe1f0",
+        "mean_ms": 0.0034
+      },
+      {
+        "size_bytes": 1,
+        "pattern": "all_FF",
+        "value": "0xff00",
+        "mean_ms": 0.0012
+      },
+      {
+        "size_bytes": 1,
+        "pattern": "alternating_AA_55",
+        "value": "0xf550",
+        "mean_ms": 0.0011
+      },
+      {
+        "size_bytes": 1,
+        "pattern": "random",
+        "value": "0x4c7b",
+        "mean_ms": 0.001
+      },
+      {
+        "size_bytes": 1000,
+        "pattern": "all_00",
+        "value": "0x05a3",
+        "mean_ms": 0.5484
+      },
+      {
+        "size_bytes": 1000,
+        "pattern": "all_FF",
+        "value": "0xf2f7",
+        "mean_ms": 0.5246
+      },
+      {
+        "size_bytes": 1000,
+        "pattern": "alternating_AA_55",
+        "value": "0x47a6",
+        "mean_ms": 0.4953
+      },
+      {
+        "size_bytes": 1000,
+        "pattern": "random",
+        "value": "0x2239",
+        "mean_ms": 0.4988
+      },
+      {
+        "size_bytes": 100000,
+        "pattern": "all_00",
+        "value": "0xab08",
+        "mean_ms": 34.5545
+      },
+      {
+        "size_bytes": 100000,
+        "pattern": "all_FF",
+        "value": "0xdcdf",
+        "mean_ms": 34.4829
+      },
+      {
+        "size_bytes": 100000,
+        "pattern": "alternating_AA_55",
+        "value": "0xf783",
+        "mean_ms": 34.388
+      },
+      {
+        "size_bytes": 100000,
+        "pattern": "random",
+        "value": "0x533a",
+        "mean_ms": 34.416
+      },
+      {
+        "size_bytes": 1000000,
+        "pattern": "all_00",
+        "value": "0xc9bb",
+        "mean_ms": 343.0508
+      },
+      {
+        "size_bytes": 1000000,
+        "pattern": "all_FF",
+        "value": "0x6966",
+        "mean_ms": 349.2993
+      },
+      {
+        "size_bytes": 1000000,
+        "pattern": "alternating_AA_55",
+        "value": "0xb002",
+        "mean_ms": 350.57
+      },
+      {
+        "size_bytes": 1000000,
+        "pattern": "random",
+        "value": "0x6c9e",
+        "mean_ms": 348.7832
+      },
+      {
+        "size_bytes": 10000000,
+        "pattern": "all_00",
+        "value": "0xbed2",
+        "mean_ms": 3465.096
+      },
+      {
+        "size_bytes": 10000000,
+        "pattern": "all_FF",
+        "value": "0x7afd",
+        "mean_ms": 3517.0104
+      },
+      {
+        "size_bytes": 10000000,
+        "pattern": "alternating_AA_55",
+        "value": "0x551d",
+        "mean_ms": 3521.5986
+      },
+      {
+        "size_bytes": 10000000,
+        "pattern": "random",
+        "value": "0x5325",
+        "mean_ms": 3521.9878
+      }
+    ]
+  }
+}

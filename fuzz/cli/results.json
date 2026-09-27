@@ -1,0 +1,11 @@
+{
+  "surface": "cli",
+  "iters": 100,
+  "crashes": 0,
+  "oracle_mismatches": 0,
+  "elapsed_seconds": 1.1774,
+  "extras": {
+    "venv_python": "/tmp/v_cycle128_harness/bin/python",
+    "worktree": "/root/projects/crc16-ccitt-pure/.worktrees/t_cycle128-adversary-01"
+  }
+}
