@@ -1,0 +1,1 @@
+from collections import namedtuple; NT=namedtuple('NT',['a','b']); NT(1,2)

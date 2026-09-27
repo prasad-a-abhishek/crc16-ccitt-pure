@@ -1,0 +1,13 @@
+{
+  "surface": "crc_oracle",
+  "iters_total": 100000,
+  "iters_per_sec": 3687.1,
+  "crashes": 0,
+  "hangs": 0,
+  "oom": 0,
+  "oracle_mismatches": 0,
+  "duration_seconds": 27.1214,
+  "first_crash_at_iter": null,
+  "exit_status": 0,
+  "seed_corpus_size": 59
+}

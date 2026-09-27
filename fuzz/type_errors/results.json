@@ -1,9 +1,9 @@
 {
   "surface": "type_errors",
-  "iters": 500,
+  "iters": 100000,
   "crashes": 0,
   "oracle_mismatches": 0,
-  "elapsed_seconds": 0.0037,
+  "elapsed_seconds": 0.3695,
   "extras": {
     "static_bad_data_cases": 17,
     "good_bytes_like_cases": 7,

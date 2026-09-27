@@ -1,0 +1,76 @@
+{
+  "total_iters": 305003,
+  "total_surfaces": 5,
+  "total_crashes": 0,
+  "total_hangs": 0,
+  "total_oom": 0,
+  "total_oracle_mismatches": 0,
+  "duration_seconds_total": 147.9598,
+  "per_surface": {
+    "crc_main": {
+      "surface": "crc_main",
+      "iters_total": 100000,
+      "iters_per_sec": 2190.3,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "duration_seconds": 45.6556,
+      "first_crash_at_iter": null,
+      "exit_status": 0,
+      "seed_corpus_size": 50
+    },
+    "crc_oracle": {
+      "surface": "crc_oracle",
+      "iters_total": 100000,
+      "iters_per_sec": 3687.1,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "duration_seconds": 27.1214,
+      "first_crash_at_iter": null,
+      "exit_status": 0,
+      "seed_corpus_size": 59
+    },
+    "type_errors": {
+      "surface": "type_errors",
+      "iters_total": 100000,
+      "iters_per_sec": 270636.0,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "duration_seconds": 0.3695,
+      "first_crash_at_iter": null,
+      "exit_status": 0,
+      "seed_corpus_size": 50
+    },
+    "cli": {
+      "surface": "cli",
+      "iters_total": 5000,
+      "iters_per_sec": 88.2,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "duration_seconds": 56.7078,
+      "first_crash_at_iter": null,
+      "exit_status": 0,
+      "seed_corpus_size": 26
+    },
+    "large_input": {
+      "surface": "large_input",
+      "iters_total": 3,
+      "iters_per_sec": 0.2,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "duration_seconds": 18.1055,
+      "first_crash_at_iter": null,
+      "exit_status": 0,
+      "seed_corpus_size": 18
+    }
+  }
+}

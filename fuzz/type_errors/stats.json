@@ -1,0 +1,13 @@
+{
+  "surface": "type_errors",
+  "iters_total": 100000,
+  "iters_per_sec": 270636.0,
+  "crashes": 0,
+  "hangs": 0,
+  "oom": 0,
+  "oracle_mismatches": 0,
+  "duration_seconds": 0.3695,
+  "first_crash_at_iter": null,
+  "exit_status": 0,
+  "seed_corpus_size": 50
+}
